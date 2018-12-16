@@ -12,6 +12,7 @@
 		FA746124218FAB59007F603B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA746122218FAB59007F603B /* Main.storyboard */; };
 		FA746126218FAB5C007F603B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA746125218FAB5C007F603B /* Assets.xcassets */; };
 		FA746129218FAB5C007F603B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA746127218FAB5C007F603B /* LaunchScreen.storyboard */; };
+		FA746131218FB2C9007F603B /* Annotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA746130218FB2C9007F603B /* Annotator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA746125218FAB5C007F603B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA746128218FAB5C007F603B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA74612A218FAB5C007F603B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA746130218FB2C9007F603B /* Annotator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FA74611E218FAB59007F603B /* AppDelegate.swift */,
 				FA746120218FAB59007F603B /* ViewController.swift */,
+				FA746130218FB2C9007F603B /* Annotator.swift */,
 				FA746122218FAB59007F603B /* Main.storyboard */,
 				FA746125218FAB5C007F603B /* Assets.xcassets */,
 				FA746127218FAB5C007F603B /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				FA746121218FAB59007F603B /* ViewController.swift in Sources */,
 				FA74611F218FAB59007F603B /* AppDelegate.swift in Sources */,
+				FA746131218FB2C9007F603B /* Annotator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,16 +287,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HB7E3755T;
+				DEVELOPMENT_TEAM = 6DR7KTY8XQ;
 				INFOPLIST_FILE = annotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.grapeit.annotate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grapeit.annotateit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,16 +306,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6HB7E3755T;
+				DEVELOPMENT_TEAM = 6DR7KTY8XQ;
 				INFOPLIST_FILE = annotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.grapeit.annotate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grapeit.annotateit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
